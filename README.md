@@ -1,1 +1,35 @@
+CALCULATEUR DE CRIBLES
+======================
 
+
+le calculateur de cribles est un logiciel utilisable sur terminal permettant de composer des groupes comme le faisait Xénakis
+
+la fonction de XEN 
+------------------
+
+3(1) = 1, 4, 7, 10... -> c(3,1)
+
+la syntaxe de XEN :
+-------------------
+
+x union y -> a(x,y)
+
+x inter y -> i(x,y)
+
+non x -> n(x)
+
+
+d'ou : 3(1) + ( 3(2) inter 3(4) ) -> a( c(3,1), i(c(3,2), c(3,4)))
+
+la formule donnée dans l'article sur la théorie des cribles de iannis-xenakis.org s'écrit : 
+
+a(i( n(a(  a(a(c(13, 3), c(13,5)) ,c(13,7)), c(13, 9))), c(11,2)),a(i(n(a(c(11, 4), c(11, 8))), c(13, 9)), a(c(13, 0), a(c(13,1), c(13, 6)))))
+
+les espaces sont tolérés
+
+Bibliographie 
+-------------
+
+https://www.iannis-xenakis.org/theorie-des-cribles/ 
+
+http://recherche.ircam.fr/equipes/repmus/moreno/AndreattaENSTBretagne2005.pdf
