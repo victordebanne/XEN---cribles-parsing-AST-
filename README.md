@@ -12,11 +12,11 @@ la fonction de XEN
 la syntaxe de XEN :
 -------------------
 
-x union y -> a(x,y)
+- x union y -> a(x,y)
 
-x inter y -> i(x,y)
+- x inter y -> i(x,y)
 
-non x -> n(x)
+- non x -> n(x)
 
 
 d'ou : 3(1) + ( 3(2) inter 3(4) ) -> a( c(3,1), i(c(3,2), c(3,4)))
@@ -33,3 +33,16 @@ Bibliographie
 https://www.iannis-xenakis.org/theorie-des-cribles/ 
 
 http://recherche.ircam.fr/equipes/repmus/moreno/AndreattaENSTBretagne2005.pdf
+
+
+
+ChangeLog
+---------
+
+XEN 1.2 :
+
+- refonte du parsing et de l'AST (arbres.c)
+
+Il n'y a normalement plus de cas dans lequel le programme pourrait crasher. 
+
+- ajout du tutoriel
