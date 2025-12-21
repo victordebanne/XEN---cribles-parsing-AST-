@@ -51,4 +51,4 @@ XEN 1.3 :
 
 - refonte de logic.c avec complexité O(n)
 
-- correction bug sur un type d'erreurs de parenthèses
+- correction bug sur un type d'erreur de parenthèses
