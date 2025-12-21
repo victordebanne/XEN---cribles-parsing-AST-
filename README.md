@@ -46,3 +46,9 @@ XEN 1.2 :
 Il n'y a normalement plus de cas dans lequel le programme pourrait crasher. 
 
 - ajout du tutoriel
+
+XEN 1.3 :
+
+- refonte de logic.c avec complexité O(n)
+
+- correction bug sur un type d'erreurs de parenthèses
